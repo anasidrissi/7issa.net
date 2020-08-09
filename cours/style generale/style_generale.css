@@ -1,0 +1,44 @@
+red: rgb(200,70,70);
+green: rgb(58,160,190);
+blue: rgb(70,110,190);
+black: rgb(128,128,128);
+h1{ /* les noms des chapitres ex: chapitre 1; */
+	color: white;
+	background: red;
+	font-family: calibri-light;
+	font-weight: bold;
+	font-size: 26;
+}
+h2{ /* les noms des paragraphes ex: 1:introduction*/
+	color: green;
+	font-family: calibri-light;
+	font-weight: bold;
+	font-size: 18;
+}
+h3{/* pour les sous nom  */
+	color: black;
+	font-family: arial;
+	font-size: 12;
+}
+p{/* pour les paragraphs */
+	color: black;
+	font-family: arial;
+	font-size: 11;
+}
+.exemple_name{
+	color: red;
+	font-size: 11;
+	font-family: arial;
+	font-weight: bold;
+}
+.exemple_content{
+	color: blue;
+	font-size: 11;
+	font-family: arial;
+}
+.sous_partie{
+	color: green;
+	font-size: 14;
+	font-family: calibri;
+	font-weight: bold;
+}

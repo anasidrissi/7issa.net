@@ -1,0 +1,4 @@
+AuthName "7issa admin"
+AuthType Basic
+AuthUserFile "C:\wamp\www\hissa.com\administration\.htpasswd"
+Require valid-user

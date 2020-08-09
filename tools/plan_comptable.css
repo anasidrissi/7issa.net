@@ -1,0 +1,210 @@
+@font-face{
+	font-family:hissa_fontg;
+	src: url("hissa_fontg.ttf");
+}
+	@font-face{
+	font-family:hissa_fontf;
+	src: url("hissa_fontf.ttf");
+}
+@font-face{
+	font-family:hissa_fontb;
+	src: url("hissa_fontb.ttf");
+}
+	.classe{
+		color: black;
+	}
+	.titre{
+		font-family: hissa_fontf;
+		color: white;
+		font-size: 25px;
+		padding: 3px;
+		border: 1px solid black;
+		width: 99%;
+	}
+	.attri{
+		font-family: hissa_fontf;
+		font-size: 15px;
+		background: #666;
+		padding: 2px;
+		color: black;
+		border: 1px solid black;
+		width: 99.3%;
+		margin-bottom: 5px;
+		margin-top: 5px;
+		display: inline-block;
+	}
+	.attr_num{
+		margin-right: 9px;
+	}
+	.post{
+		font-family: hissa_fontf;
+		margin-top: 10px;
+		margin-left: 30px;
+	}
+	.sous_compte{
+		color: blue;
+		margin-left: 30px;
+		font-family: hissa_fontb;
+		font-size: 0.9em;
+	}
+	.compte{
+		font-family: hissa_fontb;
+		font-size: 0.9em;
+	}
+	#plan{
+		padding: 0.1em;
+		border: 2px solid #f3f3f3;
+		background-color: #fdfdfd;
+		width: 50%;
+		padding-top: 0px;
+		display: inline-block;
+		margin-left: 17em;
+	}
+	#plan > a{
+		text-decoration: none;
+	}
+	.grand_titre{
+		font-family: hissa_fontf;
+		font-size: 2em;
+		color: #c60000;
+	}
+	.grand_titre>span{
+		background-color: none;
+		color: #2f7d00;
+	}
+	.plan_foot{
+		font-family: hissa_fontf;
+		font-style: italic;
+		color: blue;
+		margin-left: 50%;
+		text-align: right;
+	}
+	.plan_foot > p{
+		display: inline-block;
+	}
+	#header{
+		display: inline-block;
+		width: 15em;
+		float: left;
+		border: 1px solid black;
+		padding: 0.5%;
+		border: 2px solid #f3f3f3;
+		background-color: #fdfdfd;
+		height: 500px;
+		margin-right: 1%;
+		position: fixed;
+
+	}
+	#header > form{
+		margin-top: 10px;
+		width: 100%;
+	}
+	#header > form > .ch_field{
+		border: 1px solid #00808C;
+		height: 1.8em;
+		border-radius: 2px;
+		width: 15.5em;
+	}
+	#header > form > .plan_charche_btn{
+		border: 1px solid #00808C;
+		height: 2.1em;
+		background: #fdfdfd;
+		margin-left: 2px;
+		border-radius: 2px;
+		width: 2.2em;
+		padding-bottom: 0.2em;
+		background-color: #00808C;
+		border: 1px solid black;
+	}
+	.logo{
+		padding: 3px;
+		background: #00808C;
+		border: 1px solid black;
+	}
+	.logo>img{
+		width: 100%;
+	}
+	.cherche_type{
+		font-family: hissa_fontb;
+		font-size: 0.7em;
+		margin-bottom: 5px;
+		position: relative;
+		bottom: 0.25em;
+	}
+	.no_resultat{
+		font-family: hissa_fontb;
+		font-size: 1.2em;
+		padding: 0.3em;
+	}
+	}
+footer{
+	position: relative;
+	left: 23%;
+	top: 12em;
+	width: 25em;
+	margin-bottom: 2em;
+}
+footer>div{
+	text-align: center;
+}
+footer>div>a{
+	text-decoration: none;
+	color: #333;
+	font-family: hissa_fontb;
+	font-size: 12px;
+}
+footer>div>a:hover{
+	color: blue;
+}
+footer>div{
+	font-size:14px;
+	font-family: hissa_fontb;
+}
+div>.c{
+	font-size: 12px;
+	margin-bottom: 2px;
+}
+.logo_foot{
+	opacity: 0.7;
+	border-radius: 2px;
+}
+.logo_foot:hover{
+	opacity: 1;
+}
+.v{
+	font-style: italic;;
+	font-family: hissa_fontb;
+	font-size: 10px;
+}
+.plan_tri_titre{
+	font-family: hissa_fontb;
+	font-size: 0.9em;
+
+}
+.plan_select{
+	height: 1.5em;
+	font-family: hissa_fontb;
+	width: 10em;
+	font-size: 0.8em;
+	text-align: center;
+	color: #666;
+}
+.plan_tri_btn{
+		color: white;
+		border: 1px solid #00808C;
+		height: 2.1em;
+		background: #fdfdfd;
+		margin-left: 2px;
+		border-radius: 2px;
+		width: 5em;
+		padding-bottom: 0.2em;
+		background-color: #00808C;
+		border: 1px solid black;
+		margin-top: 0.5em;
+		font-family: hissa_fontb;
+		font-size: 0.8em;
+}
+.version{
+	font-family: hissa_fontb;
+	font-size: 0.6em;
+}

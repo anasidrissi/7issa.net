@@ -1,0 +1,120 @@
+.img_couv{
+	height: 10em;
+	width: 37em;
+	position: relative;
+	left: 12.5em;
+	top: 1.5em;
+	border-left:#00808C 1px solid;
+	border-right:#00808C 1px solid;
+	border-bottom:#00808C 1px solid;
+	border-radius: 0px 0px 3px 3px;
+}
+header{
+	position: fixed;
+	z-index: 2;
+}
+#panel1{
+	z-index: 2;
+	position: fixed;
+	top: 3.2em;
+
+}
+#panel2{
+	z-index: 2;
+	position: fixed;
+	top: 3.2em;
+}
+#menu_left_rit{
+	position: fixed;
+	top: 5em;
+	overflow:hidden;
+	width: 12em;
+	z-index: 50;
+	transition: width 0.1s ease-out 0s;
+}
+.fs1{
+	color: rgba(20,146,158,1);
+	font-size:1.5em;
+}
+.fs1:hover{
+	color:rgba(20,146,158,0.8)
+}
+.about_admin{
+	position: relative;
+	left: 15.9em;
+	text-decoration: none;
+	font-family: hissa_fontb;
+	color: blue;
+	font-size:0.8em;
+	overflow: hidden;
+	width: 60em;
+}
+.about_admin>a{
+	position: relative;
+	right: 0.9em;
+	text-decoration: none;
+	margin-right: 0.8em;
+}
+.about_admin>a:hover{
+	text-decoration: underline;
+}
+.about_admin>span{
+	font-size: 1.1em;
+	color: #18AAFC;
+}
+.apropos_admin{
+	color: #444;
+}
+.apropos_admin:hover{
+	color: black;
+}
+.youtube{
+	color: #C41A1E;
+}
+.facebook{
+	color: #3974B1;
+}
+.twitter{
+	color: #2796E4;
+}
+#principale_rit{
+	width:38em;
+	display:inline-block;
+	position:relative;
+	top: 1em;
+	left: 12.6em;
+	float: left;
+}
+.news_rit{
+	width:23em;
+	position: relative;
+	right: 12em;
+	bottom: 7em;
+	display: inline-block;
+	border-radius:2px;
+	float: right;
+	-webkit-box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);/*box_shadow*/
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(250,250,250,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(250,250,250,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(250,250,250,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(250,250,250,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(250,250,250,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(250,250,250,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fafafa', GradientType=0 );
+	
+}
+.more_rit{
+	margin-left:17.5em;
+	margin-top:0.4em;
+	margin-bottom:0.2em;
+	}
+.more_rit>a{
+	text-decoration:none;
+	font-family:hissa_font;
+	color:#3E76A4;
+	font-size:15px;
+	text-align:right;
+}
